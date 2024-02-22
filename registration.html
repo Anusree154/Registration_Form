@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <div class="apply-box">
+        <div class="title-section">
+        <h3>Employee Registration Form</h3>
+    </div>
+        <form action="">
+            <div class="form-container">
+                <div class="form-control">
+        
+        <label for="fullname">Full Name</label>
+        <input type="text" id="fullname" name="fullname" required>
+         </div>
+        <div class="form-control">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-control">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password " required>
+        </div>
+        <div class="form-control">
+        <label for="password">Conform Password</label>
+        <input type="password" id="password" name="password" required>
+         </div>
+         <section class="other">
+        
+        <span>Gender</span>
+        <fieldset >
+        <div class="form-control  " style="  width: 350px;  " >
+            <div class="section1" style="margin-top: 8px;">
+            <label class="radio" for="gender"><input type="radio" id="female" name="gender" required >Female</label>
+        </div>
+        <div class="section1" style="margin-top: 8px;"  >
+    <label class="radio" for="gender"><input  type="radio" id="male" name="gender" required >Male</label>
+</div>
+    </div>
+</fieldset>
+</section>
+    <div class="form-control ">
+        <label for="date">DOB</label>
+            <input  value="1990-10-19" type="date" id="date" name="date" required />
+       
+    </div>
+    <div class="form-control">
+    <label for="mobile">Mobile</label>
+    <input type="tel" id="mobile" name="mobile" required>
+     </div>
+    <div class="form-control resume">
+    <label for="file">Resume</label>
+    <input type="file" id="resume" name="resume" required>
+     </div>
+     
+    <div class="form-control ">
+    <label for="challenge" >Physically Challenged</label>
+    <div class="checkbox">
+    <input style="width: 20px; height: 20px; margin-left: 70px;" type="checkbox" id="challenge" name="challenge" value="check is Physically Challenged">(check if Physically Challenged)
+    </div>
+    </div>
+
+    <div class="form-control">
+    <label for="country">Country</label>
+    <input type="text" id="country" name="country" placeholder="India">
+     </div>
+    <div class="form-control">
+    <label for="city">city</label>
+    <input type="text" id="city" name="city" placeholder="Hyderabad">
+    </div>
+    <div class="form-control">
+    <label for="address" >Address</label>
+    <textarea  style="margin-left: 70px;" name="address" id="address"  rows="2" placeholder="Hyderabad" required></textarea>
+    </div>
+    <div class="button">
+        <button class="b1">Submit</button>
+        <button  class="b2">Cancel</button>
+    </div>
+    
+   </div>
+</form>
+
+  </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    
+}
+
+.apply-box{
+    max-width: 700px;
+    height: 750px;
+    margin: 0 auto;
+    padding: 10px 100px;
+    margin-top: 50px;
+    background-color:#ddd;
+    box-shadow: 4px 3px 5px rgba(1,1,1,0.1);
+}
+.title-section{ 
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.form-container{
+    display: grid;
+    grid-template-columns: repeat(200px,1fr);
+    gap: 10px;
+    
+}
+.form-control{
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+fieldset{
+    background-color: white;
+    border-radius: 5px;
+    width: 20px;
+    max-height: 30px;
+    border: 1px solid white;
+    margin-left: 70px;
+    
+    
+
+}
+ 
+.form-control textarea{
+    margin-left: 60px;
+}
+
+label{
+    width: 150px;
+    display: inline-block;
+    text-align: right;
+}
+span{
+    width: 150px;
+    display: inline-block;
+    text-align: right;
+}
+ .other{
+    display: flex;
+}
+
+.radio {
+    
+    display: flex;
+    flex-direction: row;
+   
+  }
+
+label,input{
+    font-size: 15px;
+    margin-bottom: 5px;
+
+
+
+}
+.checkbox{
+    display: flex;
+    background-color: white;
+    border-radius: 5px;
+    width: 350px;
+    max-height: 30px;
+    border: 1px solid white;
+    margin-left: 70px;
+}
+input{
+    display: grid;
+    justify-content: center;
+    margin-left: 70px;
+}
+
+input,textarea{
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 350px;
+    max-height: 50px;
+    
+}
+input:focus{
+    outline-color: red;
+}
+.button {
+    display: flex;
+   justify-content: center;
+   
+   
+}
+.button .b1{
+    margin-right: 50px;
+    padding: 10px 15px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: rgb(41, 41, 141);
+    margin-top: 30px;
+}
+.button .b2{
+    width: 100px;
+    border-radius: 5px;
+    background-color: rgb(41, 41, 141);
+    margin-top: 30px;
+}
+ .b1:hover{
+    cursor: pointer;
+    background-color: rgb(73, 73, 238);
+}
+ .b2:hover{
+    cursor: pointer;
+    background-color: rgb(73, 73, 238);
+}
+
